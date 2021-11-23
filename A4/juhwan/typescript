@@ -1,0 +1,111 @@
+Script started on 2021-03-11 00:45:28-08:00 [TERM="xterm-256color" TTY="/dev/pts/29" COLUMNS="80" LINES="53"]
+juhwan@ada:~/CS201/A4$ ./main 0x10 4
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+0
+Exiting program.
+juhwan@ada:~/CS201/A4$ ./main 0x10 4
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+1
+You are adding 2 numbers together.
+Result: 20.000000
+juhwan@ada:~/CS201/A4$ ./main 0x10 4
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+2
+You are subtracting 2 numbers.
+Result: 12.000000
+juhwan@ada:~/CS201/A4$ ./main 0x10 4
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+3
+You are multiplying 2 numbers together.
+Result: 64.000000
+juhwan@ada:~/CS201/A4$ ./main 0x10 4
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+4
+You are dividing 2 numbers.
+Result: 4.000000
+juhwan@ada:~/CS201/A4$ ./main 0x10 4
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+5
+You are modding 2 numbers.
+Result: 0.000000
+juhwan@ada:~/CS201/A4$ ./main 0x10 4
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+6
+You are reversing 2 words.
+4 01x0 
+juhwan@ada:~/CS201/A4$ ./main 0x10 4
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+7
+Please enter valid menu option.
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+0
+Exiting program.
+juhwan@ada:~/CS201/A4$ ./main 0 0
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+4
+You are dividing 2 numbers.
+Result: -nan
+juhwan@ada:~/CS201/A4$ exit
+exit
+
+Script done on 2021-03-11 00:46:44-08:00 [COMMAND_EXIT_CODE="0"]

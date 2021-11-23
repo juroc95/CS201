@@ -1,0 +1,37 @@
+Script started on 2021-02-21 22:44:55-08:00 [TERM="xterm-256color" TTY="/dev/pts/18" COLUMNS="107" LINES="53"]
+juhwan@ada:~/CS201/A3$ ./fp_parse
+Usage: fp_parse <# of frac_bits> <# of exp_bits>
+juhwan@ada:~/CS201/A3$ ./fp_parse 11 4 33f
+Invalid number of fraction bits (11). Should be between 2 and 10.
+juhwan@ada:~/CS201/A3$ ./fp_parse 4 8 33f
+Invalid number of exponent bits (8). Should be between 3 and 5.
+juhwan@ada:~/CS201/A3$ ./fp_parse 3 3 a334
+Number a334 exceeds maximum number of bits. Only 7 allowed here.
+juhwan@ada:~/CS201/A3$ ./fp_parse 3 4 23skidoo
+Argument 3 is not a hexadecimal number (23skidoo).
+juhwan@ada:~/CS201/A3$ ./fp_parse 4 4 1af
+-15.500000
+juhwan@ada:~/CS201/A3$ ./fp_parse 4 4 af
+15.500000
+juhwan@ada:~/CS201/A3$ ./fp_parse 3 3 3c
+NaN
+juhwan@ada:~/CS201/A3$ ./fp_parse 3 3 38
++inf
+juhwan@ada:~/CS201/A3$ ./fp_parse 3 3 78
+-inf
+juhwan@ada:~/CS201/A3$ ./fp_parse 3 3 26
+3.500000
+juhwan@ada:~/CS201/A3$ ./fp_parse 3 3 18
+1.000000
+juhwan@ada:~/CS201/A3$ ./fp_parse 3 3 3f
+NaN
+juhwan@ada:~/CS201/A3$ ./fp_parse 3 3 37
+15.000000
+juhwan@ada:~/CS201/A3$ ./fp_parse 4 4 0
+0.000000
+juhwan@ada:~/CS201/A3$ ./fp_parse 4 4 100
+-0.000000
+juhwan@ada:~/CS201/A3$ exit
+exit
+
+Script done on 2021-02-21 22:48:20-08:00 [COMMAND_EXIT_CODE="0"]

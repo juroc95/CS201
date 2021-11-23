@@ -1,0 +1,19 @@
+Script started on 2021-01-14 06:39:26-08:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="80" LINES="24"]
+juhwan@ada:~/CS201$ ./typing_word_game
+This is a game that tests typing speed
+
+Type the following words:
+word #1 is The: The
+word #2 is the: the
+word #3 is brown: brown
+word #4 is jumps: jumps
+word #5 is dog: dog
+word #6 is over: over
+word #7 is quick: quick
+word #8 is lazy: lazy
+word #9 is fox: fox
+You took 16 seconds 721999 microseconds
+juhwan@ada:~/CS201$ exit
+exit
+
+Script done on 2021-01-14 06:40:00-08:00 [COMMAND_EXIT_CODE="0"]
