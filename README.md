@@ -1,4 +1,4 @@
-# CS201
+# Computer Systems Programming
 
 CS 201 Computer Systems Programming
 
